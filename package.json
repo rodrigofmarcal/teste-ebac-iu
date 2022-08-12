@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/rodrigofmarcal/teste-ebac-iu#readme",
   "dependencies": {
-    "cypress": "^10.4.0"
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "cypress": "^9.7.0"
   }
 }
