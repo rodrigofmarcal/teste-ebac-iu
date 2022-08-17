@@ -24,7 +24,6 @@ describe('Funcionalidade de pré cadastro', () => {
 
         cy.get('.woocommerce-message').should('contain', 'Detalhes da conta modificados com sucesso.')
 
-
     
     });
 

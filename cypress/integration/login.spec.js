@@ -28,12 +28,12 @@ cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain','Olá,
     cy.get('.woocommerce-error').should('contain','Endereço de e-mail desconhecido. Verifique novamente ou tente seu nome de usuário.')
     })
 
-
     it('Deve exibir uma mensagem de erro ao inserir senha inválida ',()=>{
         cy.get('#username').type('ebac@teste.com')
         cy.get('#password').type('teste@teste')
         cy.get('.woocommerce-form > .button').click()
 
         cy.get('.woocommerce-error > li').should('contain','Erro: A senha fornecida para o e-mail')
+        
     })
 })
