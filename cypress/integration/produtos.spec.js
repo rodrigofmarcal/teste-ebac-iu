@@ -13,6 +13,7 @@ describe('Funcionalidade Página de produtos', () => {
             //.eq(3)
             .contains('Cassius Sparring Tank')
             .click()
+        
     });
 
     it('Deve adicionar um produto ao carrinho', () => {
