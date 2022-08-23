@@ -3,7 +3,7 @@
 context('funcionalidade login',()=>{
 
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')    
+        cy.visit('minha-conta')    
     });
     
     afterEach(() => {
@@ -35,5 +35,5 @@ cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain','Olá,
 
         cy.get('.woocommerce-error > li').should('contain','Erro: A senha fornecida para o e-mail')
         
-    })
+    })  
 })
