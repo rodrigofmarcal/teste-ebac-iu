@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rodrigofmarcal/teste-ebac-iu.git"
+    "url": "git+https://github.com/rodrigofmarcal/teste-ebac-ui.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rodrigofmarcal/teste-ebac-iu/issues"
+    "url": "https://github.com/rodrigofmarcal/teste-ebac-ui/issues"
   },
-  "homepage": "https://github.com/rodrigofmarcal/teste-ebac-iu#readme",
+  "homepage": "https://github.com/rodrigofmarcal/teste-ebac-ui#readme",
   "dependencies": {
     "faker": "^5.5.3"
   },
