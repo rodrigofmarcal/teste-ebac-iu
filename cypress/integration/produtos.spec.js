@@ -30,4 +30,12 @@ describe('Funcionalidade Página de produtos', () => {
 
     });
 
+it('Deve adicionar produtos ao carrinho - Usando Comando customizado ', () => {
+    cy.addProdutos('Cronus Yoga Pant', '34', 'Black', 2)
+});
+
+it('Deve adicionar produtos ao carrinho - Usando Comando customizado ', () => {
+    cy.addProdutos('Cobalt CoolTech™ Fitness Short', '34', 'Blue', 3)
+});
+
 });
