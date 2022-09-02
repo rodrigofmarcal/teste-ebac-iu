@@ -1,0 +1,41 @@
+[
+    {
+        "nome": "Ane",
+        "sobrenome": "Lucy",
+        "empresa": "UBER",
+        "endereco": "rua Azul",
+        "numero": "10",
+        "pais": "Brasil",
+        "cidade": "BH",
+        "estado": "Minas Gerais",
+        "telefone": "3199999999",
+        "cep": "30 000 000",
+        "email": "foraBolsonaro@imbecil.com"
+    },
+    {
+        "nome": "Isabela",
+        "sobrenome": "Marcal",
+        "empresa": "Escola",
+        "endereco": "rua Azul",
+        "numero": "10",
+        "pais": "Brasil",
+        "cidade": "BH",
+        "estado": "Minas Gerais",
+        "telefone": "3199999999",
+        "cep": "30 000 000",
+        "email": "foraBolsonaro@imbecil.com"
+    },
+    {
+        "nome": "Raquel",
+        "sobrenome": "Marcal",
+        "empresa": "Domestica",
+        "endereco": "rua Azul",
+        "numero": "10",
+        "pais": "Brasil",
+        "cidade": "BH",
+        "estado": "Minas Gerais",
+        "telefone": "3199999999",
+        "cep": "30000-000",
+        "email": "foraBolsonaro@imbecil.com"
+    }
+]

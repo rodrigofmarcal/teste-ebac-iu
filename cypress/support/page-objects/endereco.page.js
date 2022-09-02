@@ -9,7 +9,7 @@ class EnderecoPage {
         cy.get('#billing_address_1').clear().type(endereco)
         cy.get('#billing_address_2').clear().type(numero)
         cy.get('#billing_city').clear().type(cidade)
-        cy.get('#select2-billing_state-container').click().type(estado + '{enter}')
+        cy.get('#select2-billing_state-container').click().type(estado+'{enter}').click()
         cy.get('#billing_postcode').clear().type(cep)
         cy.get('#billing_phone').clear().type(telefone)
         cy.get('#billing_email').clear().type(email)
