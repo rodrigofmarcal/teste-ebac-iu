@@ -53,7 +53,7 @@ context('funcionalidade login', () => {
         cy.get('#password').type('teste@teste')
         cy.get('.woocommerce-form > .button').click()
 
-        cy.get('.woocommerce-error > li').should('contain', 'Erro: A senha fornecida para o e-mail')
+        cy.get('.woocommerce-error > li').should('contain', 'Erro: a senha fornecida para o e-mail ebac@teste.com está incorreta.')
 
     }) 
 })
