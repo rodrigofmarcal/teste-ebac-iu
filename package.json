@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "npx serverest",
     "cy:run": "npx cypress run --browser chrome",
     "cy:open": "npx cypress open",
-    "cy:report": "npx cypress run --record --key 2d665c5a-213a-4525-bc16-b9df1be43d0d"
+    "cy:report": "npx cypress run --record --key 2d665c5a-213a-4525-bc16-b9df1be43d0d",
+    "cy:run-ci": "start-server-and-test start http:localhost:3000/usuarios test"
+
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,7 @@
     "faker": "^5.5.3"
   },
   "devDependencies": {
-    "cypress": "^9.7.0"
+    "cypress": "^9.7.0",
+    "start-server-and-test": "^1.14.0"
   }
 }
