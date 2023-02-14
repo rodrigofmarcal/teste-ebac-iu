@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Iniciar servidor') {
             steps {
-                bat 'npx serverest'
+                bat 'npx start'
             }
 
         }
