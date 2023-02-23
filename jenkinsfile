@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Iniciar servidor') {
             steps {
-                bat 'npx start'
+                bat 'npm start'
             }
 
         }
